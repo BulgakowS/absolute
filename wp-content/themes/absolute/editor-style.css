@@ -1,0 +1,69 @@
+/**
+ * Theme Name: Absolute
+ * Editor Stylesheet
+ */
+html .mceContentBody { max-width: 570px; }
+* { color: #444; font-family: Helveticam, Arial, sans-serif; font-size: 13px; line-height: 165%; }
+a { color: #222; text-decoration: underline;}
+a:hover { color: #ff0080; text-decoration: none; }
+h1,h2,h3,h4,h5,h6 { clear: both; word-wrap: break-word; line-height: 165%; font-weight: 700; }
+p { word-wrap: break-word; line-height: 165%; margin-bottom: 15px; }
+pre { overflow: auto; font-family: courier,Georgia,Serif; margin: 5px; padding: 5px; }
+pre { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; _white-space: pre; }
+abbr, .abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+address { display: block; margin: 0 0 0 1.625em; }
+cite,em,i { font-style: italic; }
+blockquote em,blockquote i,blockquote cite { font-style: normal; }
+blockquote { padding-left: 15px; margin-left: 15px; border-left: 5px #ddd solid; font-family: Georgia, serif; font-style: italic; }
+sup,sub { height: 0; line-height: 1; vertical-align: baseline; position: relative; }
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+dt,strong { font-weight: 700; }
+: focus { outline: 0; }
+del, strike, s { text-decoration: line-through; }
+ins { text-decoration: none; background-color: #feeeaf; }
+a img { border: 0; }
+.clear { line-height: 1px; height: 0; margin: 0; padding: 0; clear: both; visibility: hidden; }
+input { font-family: Helvetica, Arial, sans-serif; }
+input[type="submit"], input[type="reset"], input[type="button"] { padding: 5px; border: 1px solid; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font-weight: 700; cursor: pointer; }
+input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner { border:0; padding:0; }
+input[type="text"], input[type="password"], textarea { padding: 5px; border: 1px #777 solid; }
+input[type="submit"], input[type="reset"], input[type="button"] { background: #f5f5f5 url(images/grad.png.png) bottom left repeat-x; border-color: #999; color: #666; text-shadow: #fff 1px 1px; }
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover { background-color: #5fba0c; color: #fff; text-shadow: #428209 1px 1px; border-color: #428209; }
+input[type="text"], input[type="password"], textarea { border-color: #888; border-right-color: #bbb; border-bottom-color: #bbb; color: #666; }
+textarea { overflow: auto; font-family: inherit; font-size: 100%; }
+.wp-smiley { margin-bottom: 0 !important; }
+br { margin-bottom: 0 !important; }
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 17px; }
+h4 { font-size: 15px; }
+h5 { font-size: 13px; }
+h6 { font-size: 12px; }
+li { margin-bottom: 10px; }
+ul, ul ul { list-style: disc; margin-left: 20px; }
+ol { list-style: decimal; margin-left: 25px; }
+ol ol { margin-left: 20px; }
+ul ul, ol ol { margin-top: 10px; }
+ol ol { list-style: upper-alpha; }
+ol ol ol { list-style: lower-roman; }
+ol ol ol ol { list-style: lower-alpha; }
+table { border: 1px #ccc solid; }
+table td, table th { border: 1px #ccc solid; padding: 5px; }
+table th { background-color: #e5e5e5; font-weight: 700; text-shadow: #f5f5f5 1px 1px; }
+table caption { border: 1px #ccc solid; padding: 5px; border-bottom: 0 none; }
+.alignnone { margin: 5px 20px 20px 0; }
+.aligncenter,div.aligncenter { display: block; margin: 5px auto; }
+.alignright { float: right; margin: 5px 0 20px 20px; }
+.alignleft { float: left; margin: 5px 20px 20px 0; }
+img.alignleft { margin: 10px 20px 5px 0 !important; display: inline; float: left; }
+img.alignright { margin: 10px 10px 5px 20px !important; display: inline; float: right; }
+img.aligncenter { margin: 10px auto !important; display: block; clear: both; }
+img.alignnone { /* not sure about this one */ }
+img { max-width: 570px; }
+img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"] { height: auto; }
+img.size-full, img.size-large { max-width: 570px; width: auto; height: auto; }
+embed, object, iframe { max-width: 570px; }
+.wp-caption, .entry-attachment { max-width: 100%; background: none !important; border: 0 none !important; padding: 0 !important; }
+.wp-caption img { max-width: 560px !important; height: auto; background: #fff; border: 1px #ddd solid; padding: 4px; }
+.wp-caption .wp-caption-text { font-size: 12px; margin-bottom: 10px; padding: 0 !important; word-wrap: break-word; line-height: 135%; margin-top: 5px; text-align: center; }

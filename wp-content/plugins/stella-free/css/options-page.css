@@ -1,0 +1,43 @@
+/* Usage: Everywhere */
+.hidden { display: none; }
+
+/* Options page */
+.wp-admin #language-options h3 { font:bold 14px/21px Arial; color:#333333; margin:9px 0 0 0; }
+.wp-admin #language-options .form-table { margin:0; }
+.wp-admin #language-options .form-table td { font:13px/21px Arial; color:#333333; margin:0px; padding:0 10px; }
+.wp-admin #language-options .form-table td small { display:block; margin-top:-8px; }
+.wp-admin #language-options .form-table td em { width:207px; display:inline-block; font:italic 11px/21px Trebuchet MS; color:#595959; text-transform: uppercase; }
+.wp-admin #language-options .form-table h4 { font:13px/21px Arial; color:#333333; margin:18px 0 9px 0; padding:0; }
+.wp-admin #language-options .form-table h4.message { font:italic 13px/21px Arial; color:#666666; }
+.wp-admin #language-options h4.message.red { color:maroon; }
+.wp-admin #language-options .form-table .select { margin:0 13px 0 0; float:left; border: none; cursor: pointer; background:url(../images/bg-select.png); width:190px; height:26px; overflow:hidden;  }
+.wp-admin #language-options .form-table select { color:#333; font:12px/25px Arial; border: none; cursor: pointer;opacity: 0;  background: transparent; padding:4px 5px; width:216px; position: relative; z-index: 100;}
+.wp-admin #language-options .form-table .select-value { position: absolute; height: 26px; padding-left: 10px; font:13px/26px Arial;}
+
+.wp-admin #language-options .form-table .host-options { width: 250px; height:29px; font:12px/25px Arial; color:#595959; margin:0 10px 0px 0; padding:0 8px; }
+.wp-admin #language-options .form-table .host-options:-webkit-input-placeholder { color:#999; }
+.wp-admin #language-options .form-table .host-options:-moz-placeholder { color:#999; }
+
+.wp-admin #language-options .form-table .button { font:bold 11px/20.75px Arial!important; text-transform: capitalize; color:#595959; margin:0 0 19px 0; }
+.wp-admin #language-options .form-table input.button.disabled:hover,
+.wp-admin #language-options .form-table .button.disabled { font:bold 11px/20.75px Arial!important; text-transform: capitalize; color:#BBB; margin:0 0 19px 0; border-color: #BBB; }
+.wp-admin #language-options .form-table .square-button { font:normal 12px/21px Arial; text-transform: capitalize; color:#595959; background:url(/wp-admin/images/white-grad.png);  -webkit-border-radius:4px; -moz-border-radius:4px; border-radius: 4px; height:24px; padding: 1px 3px 3px; }
+.wp-admin #language-options .form-table input.lang-options { width: 60px; }
+.wp-admin #language-options .form-table .lang-wrapper { height: 35px; }
+.wp-admin #language-options .form-table .switcher { margin:18px 0 0 0; padding:0px; width:58px; height:20px; background-color:white; position:relative; overflow:hidden; white-space:nowrap; display: inline-block; border-radius:20px;                
+	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2),inset 0px 1px 1px 0px rgba(0, 0, 0, 0.5); font:bolder 12px arial;background-size: 20px 20px; left: -22px;background-color: rgb(218,117,101);
+}
+.wp-admin #language-options .form-table .rail { position:absolute; top:2px; left:11px; cursor: pointer; }
+.wp-admin #language-options .form-table .state1 { position:relative; left:0px; display: inline-block; height:20px; color:rgb(133,72,61); }
+.wp-admin #language-options .form-table .state2 { position:relative; left:29px; display: inline-block; height:20px; color:rgb(96,120,63); }
+.wp-admin #language-options .form-table .slider { position:relative; left:45px; display: inline-block; height:20px; width:22px; margin: 16px 0 0 0; border-radius:11px; background-color:white; box-shadow: inset -10px -10px 12px 0px rgb(238, 238, 238), 0px 0px 2px 1px rgb(170, 170, 170) ; z-index: 1000; }
+.wp-admin #language-options .form-table .switchbox{ display:none;}
+
+.wp-admin #language-options .form-table label.switcher-wrapper.disabled .state1 { position:relative; left:0px; display: inline-block; height:20px; color:#777; }
+.wp-admin #language-options .form-table label.switcher-wrapper.disabled .state2 { position:relative; left:29px; display: inline-block; height:20px; color:#777; }
+.wp-admin #language-options .form-table label.switcher-wrapper.disabled .switcher{ background-color:#CCC; }
+
+#about-rosetta-full { margin-top: 20px; width: 285px; height: 65px; border: 4px solid rgb(162,198,109);  -webkit-border-radius:10px; -moz-border-radius:10px; border-radius: 10px; cursor: pointer; }
+#about-rosetta-full img { margin: 5px; }
+
+.wp-admin #language-options .switcher-section { width: 250px; }

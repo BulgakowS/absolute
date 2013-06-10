@@ -1,0 +1,39 @@
+/*
+* Theme Name: Absolute
+* RTL Stylesheet
+*/
+address{ margin:0 1.625em 0 0; }
+blockquote{ padding-right:15px; margin-right:15px; border-right:5px #ddd solid; padding-left:0; margin-left:auto; border-left:none; }
+.alignnone{ margin:5px 0 20px 20px; }
+.alignleft{ float:left; margin:5px 20px 20px 0; }
+.alignright{ float:right; margin:5px 0 20px 20px; }
+#header{ -moz-border-radius-topright:5px; -webkit-border-top-right-radius:5px; border-top-right-radius:5px; -moz-border-radius-topleft:5px; -webkit-border-top-left-radius:5px; border-top-left-radius:5px; }
+.main-menu ul ul ul{ right:139px; left:auto; }
+.main-menu{ background:#ddd url(images/grad_dark.png) repeat-x bottom right; }
+.main-menu li{ background-position:right center; }
+.main-menu ul li.hasDownChild a{ background-position:left center; padding-left:21px; padding-right:0; }
+.main-menu ul li li.hasRightChild a{ background-image:url(images/nav_arrow_left.png); background-position:left center; padding-left:21px; padding-right:0; }
+.widget ul li{ margin-right:15px; padding-right:5px; padding-left:0; margin-left:auto; }
+.widget #s{ border-left-color:#ddd; }
+#wp-calendar #next{ text-align:left; }
+.entry-date{ background:url(images/calendar_icon.png) no-repeat right center; padding-right:21px; margin-left:10px; padding-left:0; margin-right:auto; }
+.entry-author{ background:url(images/author_icon.png) no-repeat right center; padding-right:21px; margin-left:10px; padding-left:0; margin-right:auto; }
+.entry-comments{ background:url(images/comment_icon.png) no-repeat right center; padding-right:21px; margin-left:10px; padding-left:0; margin-right:auto; }
+.post-edit-link{ background:url(images/edit_icon.png) no-repeat right center; padding-right:21px; margin-left:10px; padding-left:0; margin-right:auto; }
+.more-link{ background:#ececec url(images/grad.png) repeat-x top right; }
+.entry-magazine{ float:right; margin-right:30px; margin-left:auto; }
+#author-description{ float:right; margin-right:4%; margin-left:auto; }
+.navigation a, .single-navigation span a{ background:#ececec url(images/grad.png) repeat-x top right; margin-left:5px; margin-right:auto; }
+img.alignright{ float:right; margin:10px 0 5px 20px; }
+img.alignleft{ float:left; margin:10px 20px 5px 10px; }
+#footer{ background:#2f2822 url(images/content_inner_shadow.png) top right repeat-x; }
+.comment-vcard{ float:right; margin-left:20px; margin-right:auto; }
+#wrapper, #wp-calendar #prev{ text-align:right; }
+#content, #slider_container{ border-right:1px #aaa solid; border-left:1px #aaa solid; }
+.container, .full-container, .widget-area, .main-menu ul li, .entry-thumb, #author-avatar, .gallery .gallery-item, #supplementary .widget-area, .comment-body{ float:right; }
+#searchsubmit, .page-link a:hover span, .page-link span, .entry-content input[type="submit"], .entry-content input[type="reset"], .entry-content input[type="button"], #commentform input[type="submit"], #commentform input[type="reset"], #commentform input[type="button"]{ background:url(images/grad.png) repeat-x top right; }
+.social-icons, .entry-share-item{ margin-right:5px; margin-left:auto; }
+.main-menu ul li.hasDownChild li a, .main-menu ul li li.hasRightChild li a{ padding-left:7px; padding-right:0; }
+.entry-content ul, .entry-content ul ul, .entry-content ol ol, .pingback-edit-link, .comment-content ul, .comment-content ul ul, .comment-content ol ol{ margin-right:20px; margin-left:auto; }
+.entry-content ol, .commentlist ul, .comment-content ol{ margin-right:25px; margin-left:auto; }
+.entry-content input[type="text"], .entry-content input[type="password"], .entry-content textarea, #commentform input[type="text"], #commentform input[type="password"], #commentform textarea{ border-left-color:#aaa!important; }
