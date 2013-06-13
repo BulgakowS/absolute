@@ -203,6 +203,7 @@ function absolute_enqueue_styles() {
     $style .= '<!--[if IE]> <link rel="stylesheet" type="text/css" media="all" href="'.get_template_directory_uri().'/ie.css" /> <![endif]-->'."\n";
     if($absolute_options['enable_slideshow'] and is_front_page())
 	$style .= '<link rel="stylesheet" type="text/css" media="all" href="'.get_template_directory_uri().'/inc/slider/slider.css" />'."\n";
+//    $style .= '<link rel="stylesheet" type="text/css" media="all" href="'.get_template_directory_uri().'/css/bootstrap.min.css" />'."\n";
     $style .= '<!--[if lt IE 9]><script src="'.get_template_directory_uri().'/js/html5.js" type="text/javascript"></script><![endif]-->'."\n";
     $style .= '<style type="text/css">'."\n";
     $style .= "\t".'#wrapper { width: '.ABSOLUTE_WRAPPER_WIDTH.'px; }'."\n";

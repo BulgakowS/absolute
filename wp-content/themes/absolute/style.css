@@ -20,7 +20,7 @@ blockquote,q { quotes: none; }
 blockquote: before,blockquote: after,q: before,q: after { content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 /* Default HTML Elements */
-
+.clr{clear: both;}
 h1,h2,h3,h4,h5,h6 { clear: both; word-wrap: break-word; line-height: 165%; font-weight: 700; }
 p { word-wrap: break-word; line-height: 165%; }
 pre { overflow: auto; font-family: courier,Georgia,Serif; margin: 5px; padding: 5px; }
@@ -559,3 +559,21 @@ ul#languages li{
     text-decoration: none;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
+
+/*****contact form****/
+.wpcf7-form.last{ margin-top: 10px; margin-left: 100px; font-size: 14px; }
+.wpcf7-form.last input[type=text],
+.wpcf7-form.last input[type=email],
+.wpcf7-form.last textarea{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 550px;
+    padding: 5px;
+    font-size: 16px;
+    border:1px solid #ccc;
+    resize: none;
+    color:#000;
+}
+.wpcf7-form.last .wpcf7-captchar{ width: 400px !important; margin-top: -20px; }
