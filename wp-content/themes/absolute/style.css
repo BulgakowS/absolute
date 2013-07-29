@@ -17,7 +17,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
 body { line-height: 1; text-shadow: none; }
 ol,ul { list-style: none; }
 blockquote,q { quotes: none; }
-blockquote: before,blockquote: after,q: before,q: after { content: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 /* Default HTML Elements */
 .clr{clear: both;}
@@ -35,13 +35,13 @@ sup,sub { height: 0; line-height: 1; vertical-align: baseline; position: relativ
 sup { bottom: 1ex; }
 sub { top: .5ex; }
 dt,strong { font-weight: 700; }
-: focus { outline: 0; }
+:focus { outline: 0; }
 del, strike, s { text-decoration: line-through; }
 ins { text-decoration: none; background-color: #feeeaf; }
 a img { border: 0; }
-.clearfix: after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 * html .clearfix { zoom: 1; } /* IE6 */
-: first-child+html .clearfix { zoom: 1; } /* IE7 */
+:first-child+html .clearfix { zoom: 1; } /* IE7 */
 .clear { line-height: 1px; height: 0; margin: 0; padding: 0; clear: both; visibility: hidden; }
 input { font-family: Helvetica, Arial, sans-serif; }
 input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner { border:0; padding:0; }
@@ -63,7 +63,7 @@ body { background-color: #fff; padding: 0px; text-shadow: none; }
     /*margin-top: -10px;*/ 
 }
 /*box-shadow: 0 -8px 20px 2px rgba(255, 188, 57, 0.8);*/
-#content { background-color: #fff; overflow: hidden; min-height: 300px; }
+#content { background-color: #fff; overflow: hidden; min-height: 400px; }
 .container, .full-container { 
     float: left; 
     padding: 25px; 
