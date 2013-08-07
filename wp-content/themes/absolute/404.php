@@ -7,14 +7,16 @@
 <?php get_header(); ?>
 <div class="full-container">
     <article id="post-0" <?php post_class(); ?>>
-        <h2 class="entry-title"><?php _e('Error! Page not found', 'absolute'); ?></h2>
+        <h2 class="entry-title">
+            <?php $cur_lang = stella_get_current_lang(); ?>
+            <?php if ($cur_lang == 'ru'): ?> Страница не найдена.<?php endif; ?>
+            <?php if ($cur_lang == 'uk'): ?> Сторінку не знайдено. <?php endif; ?>
+        </h2>
         <div class="entry-content">
-            <p><?php _e('Apologies, but this page does not exist anymore. Try using the search below. All archived entries have been listed below, try looking through them', 'absolute'); ?></p>
-            <p><?php get_search_form(); ?></p>
-            <p>
-                <h3><?php _e('Archive','absolute'); ?></h3>
-                <ul><?php wp_get_archives('type=postbypost'); ?></ul>
-            </p>
+            <h3><a href="<?php bloginfo('url') ?>" title="<?php bloginfo('name') ?> <?php bloginfo('description') ?>">
+                   <?php if ($cur_lang == 'ru'): ?> На главную<?php endif; ?>
+                    <?php if ($cur_lang == 'uk'): ?> На головну <?php endif; ?>
+                </a></h3>
         </div>
     </article>
 </div>
