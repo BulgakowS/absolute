@@ -184,7 +184,6 @@ class Post_Localizer {
 		return $permalink;
 	}
 	function localize_title( $title, $id ){
-		//print_r(STELLA_CURRENT_LANG);die;
 		
 		if ( STELLA_CURRENT_LANG != STELLA_DEFAULT_LANG ){
 			$title_new = get_post_meta( $id, '_title-' . STELLA_CURRENT_LANG, true );

@@ -236,7 +236,7 @@ h1.entry-title { font-size: 24px; }
 .entry-comments { background: url(images/comment_icon.png) no-repeat left center; padding-left: 21px; margin-right: 10px; }
 .post-edit-link { background: url(images/edit_icon.png) no-repeat left center; padding-left: 21px; margin-right: 10px; }
 article.post, article.page, article.type-attachment, article.slide, article.portfolio { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px #e5e5e5 solid; overflow: hidden; }
-.entry-content { line-height: 165%; overflow: hidden; }
+.entry-content { line-height: 165%; overflow: hidden; text-align: justify; }
 .entry-content a:hover { text-decoration: underline; }
 .entry-content * { margin-bottom: 15px; line-height: 165%; }
 .entry-content *:last-child { margin-bottom: 0; }
@@ -256,7 +256,7 @@ article.post, article.page, article.type-attachment, article.slide, article.port
 .entry-content ol ol { list-style: upper-alpha; }
 .entry-content ol ol ol { list-style: lower-roman; }
 .entry-content ol ol ol ol { list-style: lower-alpha; }
-.entry-content table { border: 1px #ccc solid; }
+.entry-content table { border: 1px #ccc solid; margin: 0 auto 20px; }
 .entry-content table td, .entry-content table th { border: 1px #ccc solid; padding: 5px; }
 .entry-content table th { background-color: #e5e5e5; font-weight: 700; text-shadow: #f5f5f5 1px 1px; }
 .entry-content table caption { border: 1px #ccc solid; padding: 5px; border-bottom: 0 none; }
@@ -577,3 +577,9 @@ ul#languages li{
     color:#000;
 }
 .wpcf7-form.last .wpcf7-captchar{ width: 400px !important; margin-top: -20px; }
+
+.nautic-pages li {list-style: none !important; font-size: 14px; }
+.nautic-pages li .children li {list-style-image: url(imgs/bottom_menu_cursor.png) !important; margin-left: 25px !important;}
+.nautic-pages .active{color: #000; background: #ffbc39;}
+.nautic-pages a {padding: 3px; border-radius: 3px;}
+.widget.nautic_pages .widget-title{display: none;}

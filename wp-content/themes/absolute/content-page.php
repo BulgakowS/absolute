@@ -14,7 +14,7 @@
         <h1 class="entry-title title_header" style="background-image: url(<?php echo $img; ?>); background-repeat: no-repeat; background-position: left center;"><span class="title_header_text"><?php the_title(); ?></span></h1>
     <?php else: ?>
         <?php if (!is_front_page()): ?> 
-            <h1 class="entry-title"><?php the_title(); ?></h1>
+            <!--h1 class="entry-title"><?php the_title(); ?></h1-->
         <?php endif; ?>
     <?php endif; ?>
     <?php if($absolute_options['show_page_meta']): ?>

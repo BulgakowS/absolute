@@ -40,7 +40,8 @@
                     <?php if ($cur_lang == 'ru'): ?> ГАРЯЧАЯ ЛИНИЯ <?php endif; ?>
                     <?php if ($cur_lang == 'uk'): ?> ГАРЯЧА ЛІНІЯ <?php endif; ?>
                     <br />
-                    <div class="phone">0 800 <span>32 23 566</span></div>
+                    <div class="phone">0 472 <span>38 24 79</span></div>
+                    <div class="phone">0 67 <span>445 76 70</span></div>
                 </div>
             </div>
             <?php // if($absolute_options['show_search']): ?>
