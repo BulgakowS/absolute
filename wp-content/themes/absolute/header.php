@@ -30,45 +30,45 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-<div id="header">
-    <div id="header-block">
-        <div id="header_right">
-            <div id="header_contact">
-                <div class="text">
-                    <?php $cur_lang = stella_get_current_lang(); ?>
-                    <?php if ($cur_lang == 'ru'): ?> ГАРЯЧАЯ ЛИНИЯ <?php endif; ?>
-                    <?php if ($cur_lang == 'uk'): ?> ГАРЯЧА ЛІНІЯ <?php endif; ?>
-                    <br />
-                    <div class="phone">0 472 <span>38 24 79</span></div>
-                    <div class="phone">0 67 <span>445 76 70</span></div>
+<div id="wrap_all">
+    <div id="header">
+        <div id="header-block">
+            <div id="header_right">
+                <div id="header_contact">
+                    <div class="text">
+                        <?php $cur_lang = stella_get_current_lang(); ?>
+                        <?php if ($cur_lang == 'ru'): ?> ГАРЯЧАЯ ЛИНИЯ <?php endif; ?>
+                        <?php if ($cur_lang == 'uk'): ?> ГАРЯЧА ЛІНІЯ <?php endif; ?>
+                        <br />
+                        <div class="phone">0 472 <span>38 24 79</span></div>
+                        <div class="phone">0 67 <span>445 76 70</span></div>
+                    </div>
                 </div>
-            </div>
-            <?php // if($absolute_options['show_search']): ?>
-                <?php // get_search_form(); ?>
-            <?php // endif; ?>
-            
-            
-            <?php if(!dynamic_sidebar('sidebar-5')): ?>
-            <?php endif; ?>
-        </div>
-        <div class="site-title">
-            <a href="<?php echo home_url(); ?>">&nbsp;</a>
-        </div>
-        <?php // if(trim(get_bloginfo('description')) != ''): ?>
-        <!--<p class="site-desc"><?php // bloginfo('description'); ?></p>-->
-        <?php // endif; ?>
+                <?php // if($absolute_options['show_search']): ?>
+                    <?php // get_search_form(); ?>
+                <?php // endif; ?>
 
-        
-    </div>
-</div>
-<?php wp_nav_menu(array('theme_location' => 'primary', 'container_class' => 'main-menu clearfix', 'depth' => 1)); ?>    
-<div id="wrapper">
-    <?php if($absolute_options['enable_slideshow'] and is_front_page()): ?>
-    <div id="slider_container">
-        <div class="slideshow">
-            <?php absolute_slideshow(); ?>
+
+                <?php if(!dynamic_sidebar('sidebar-5')): ?>
+                <?php endif; ?>
+            </div>
+            <div class="site-title">
+                <a href="<?php echo home_url(); ?>">&nbsp;</a>
+            </div>
+            <?php // if(trim(get_bloginfo('description')) != ''): ?>
+            <!--<p class="site-desc"><?php // bloginfo('description'); ?></p>-->
+            <?php // endif; ?>
+
+
         </div>
     </div>
-    <?php endif; ?>
-    <div id="content"> <!-- Start of content -->
+    <?php wp_nav_menu(array('theme_location' => 'primary', 'container_class' => 'main-menu clearfix', 'depth' => 1)); ?>    
+    <div id="wrapper">
+        <?php if($absolute_options['enable_slideshow'] and is_front_page()): ?>
+        <div id="slider_container">
+            <div class="slideshow">
+                <?php absolute_slideshow(); ?>
+            </div>
+        </div>
+        <?php endif; ?>
+        <div id="content"> <!-- Start of content -->

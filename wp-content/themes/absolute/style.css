@@ -14,7 +14,11 @@ Tags:light, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-w
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; }
-body { line-height: 1; text-shadow: none; }
+html{ min-height: 100%; height: 100%; }
+body { line-height: 1; text-shadow: none; background-color: #fff; padding: 0px; text-shadow: none; 
+       min-height: 100%; 
+       height: 100%;
+}
 ol,ul { list-style: none; }
 blockquote,q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: none; }
@@ -54,7 +58,6 @@ textarea { overflow: auto; }
 .alignleft { float: left; margin: 5px 20px 20px 0; }
 
 /* Body */
-body { background-color: #fff; padding: 0px; text-shadow: none; }
 #wrapper { 
     background-color: #fff; 
     margin: 0 auto; 
@@ -64,10 +67,11 @@ body { background-color: #fff; padding: 0px; text-shadow: none; }
     /*margin-top: -10px;*/ 
 }
 /*box-shadow: 0 -8px 20px 2px rgba(255, 188, 57, 0.8);*/
-#content { background-color: #fff; overflow: hidden; min-height: 400px; }
+#content { background-color: #fff; overflow: hidden; position: relative; margin-bottom: 20px; }
 .container, .full-container { 
     float: left; 
     padding: 25px; 
+    padding-bottom: 0;
     /*background-image: url(images/content_inner_shadow.png); background-repeat: repeat-x;*/ 
 }
 .widget-area { float: left; padding: 25px; /*background-image: url(images/content_inner_shadow.png); background-repeat: repeat-x; */}
@@ -319,6 +323,9 @@ img.size-full, img.size-large { max-width: 100%; width: auto; height: auto; }
 .wp-caption img, .entry-attachment img, .gallery-thumb img, .gallery-item img { max-width: 98% !important; height: auto; background: #fff; border: 1px #ddd solid; padding: 4px; }
 .wp-caption .wp-caption-text, .entry-attachment .entry-caption p, .gallery .gallery-caption { font-size: 12px; margin-bottom: 10px; padding: 0 !important; word-wrap: break-word; line-height: 135%; margin-top: 5px; text-align: center; }
 
+
+#wrap_all{ min-height: 100%; }
+#footer_space{ height: 200px; position: relative; clear: both;}
 /* Footer */
 #footer { 
     height: 160px;
@@ -331,6 +338,7 @@ img.size-full, img.size-large { max-width: 100%; width: auto; height: auto; }
     -moz-box-shadow:    0px 0px 25px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 25px rgba(50, 50, 50, 1); 
     z-index: 1;    
+    margin-top: -200px;
 }
 #footer a { color: #aaa; }
 #supplementary { overflow: hidden; }
