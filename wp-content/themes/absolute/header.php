@@ -18,6 +18,11 @@
 <!--<![endif]-->
 <head>
     <meta charset="<?php bloginfo('charset'); ?>" />
+
+	<meta property="og:image" content="<?php _e(bloginfo('template_url'))?>/imgs/absolut-logo116x116.png" />
+	<meta property="og:site_name" content="<?php bloginfo('name')?>" />
+	<meta property="og:title" content="<?php bloginfo('description')?>" />
+
     <title>
         <?php
             global $page, $paged, $absolute_options;
@@ -28,26 +33,30 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php wp_head(); ?>
+
+<!-- FB init -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=655446031157437";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+<!-- /FB -->
+<!-- VK init -->
+	<script type="text/javascript" src="//vk.com/js/api/openapi.js?105"></script>
+	<script type="text/javascript"> VK.init({apiId: 4179921, onlyWidgets: true}); </script>
+<!-- /VK -->
 </head>
 <body <?php body_class(); ?>>
 <div id="wrap_all">
     <div id="header">
         <div id="header-block">
-            <div id="header_right">
-                <div id="header_contact">
-                    <div class="text">
-                        <?php $cur_lang = stella_get_current_lang(); ?>
-                        <?php if ($cur_lang == 'ru'): ?> ГАРЯЧАЯ ЛИНИЯ <?php endif; ?>
-                        <?php if ($cur_lang == 'uk'): ?> ГАРЯЧА ЛІНІЯ <?php endif; ?>
-                        <br />
-                        <div class="phone">0 472 <span>38 24 79</span></div>
-                        <div class="phone">0 67 <span>445 76 70</span></div>
-                    </div>
-                </div>
+            <div id="header_left">
                 <?php // if($absolute_options['show_search']): ?>
                     <?php // get_search_form(); ?>
                 <?php // endif; ?>
-
 
                 <?php if(!dynamic_sidebar('sidebar-5')): ?>
                 <?php endif; ?>

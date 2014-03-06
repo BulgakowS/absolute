@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Absolute\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-03 09:39-0600\n"
+"PO-Revision-Date: 2012-08-03 09:39-0600\n"
+"Last-Translator: \n"
+"Language-Team: Nischal Maniar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;gettext;gettext_noop\n"
+
+#404.php:10
+msgid "Error! Page not found"
+msgstr ""
+
+#404.php:12
+msgid "Apologies, but this page does not exist anymore. Try using the search below. All archived entries have been listed below, try looking through them"
+msgstr ""
+
+#404.php:15
+msgid "Archive"
+msgstr ""
+
+#comments.php:8
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#comments.php:16
+msgid "One comment"
+msgstr ""
+
+#comments.php:21
+msgid "Leave a comment"
+msgstr ""
+
+#comments.php:28
+msgid "Older Comments"
+msgstr ""
+
+#comments.php:29
+msgid "Newer Comments"
+msgstr ""
+
+#comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#content-gallery.php:12
+#content-magazine.php:12
+#content-page.php:22
+#content-search.php:12
+#content-single.php:12
+#content-status.php:11
+#content.php:12
+#functions.php:702
+#image.php:19
+msgid "Reply"
+msgstr ""
+
+#content-gallery.php:12
+#content-magazine.php:12
+#content-page.php:22
+#content-search.php:12
+#content-single.php:12
+#content-status.php:11
+#content.php:12
+#image.php:19
+msgid "1 Comment"
+msgstr ""
+
+#content-gallery.php:12
+#content-magazine.php:12
+#content-page.php:22
+#content-search.php:12
+#content-single.php:12
+#content-status.php:11
+#content.php:12
+#image.php:19
+msgid "% Comments"
+msgstr ""
+
+#content-gallery.php:13
+#content-magazine.php:13
+#content-page.php:23
+#content-search.php:13
+#content-single.php:13
+#content-status.php:12
+#content.php:13
+#functions.php:691
+#functions.php:703
+#image.php:20
+msgid "Edit"
+msgstr ""
+
+#content-gallery.php:23
+#content-page.php:28
+#content-single.php:17
+#content-status.php:16
+#content.php:17
+#functions.php:440
+msgid "Continue reading"
+msgstr ""
+
+#content-gallery.php:35
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgstr ""
+
+#content-gallery.php:39
+#content-page.php:29
+#content-single.php:18
+#content-status.php:17
+#content.php:18
+#image.php:48
+msgid "Pages:"
+msgstr ""
+
+#footer.php:10
+msgid "Copyright &copy;"
+msgstr ""
+
+#fullwidth-template.php:17
+#image.php:61
+#index.php:23
+#page.php:19
+msgid "Nothing Found"
+msgstr ""
+
+#fullwidth-template.php:19
+#image.php:63
+#index.php:25
+#page.php:21
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#functions.php:75
+msgid "Primary Menu"
+msgstr ""
+
+#functions.php:282
+msgid "Main Sidebar"
+msgstr ""
+
+#functions.php:291
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#functions.php:300
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#functions.php:309
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#functions.php:352
+#, php-format
+msgid "<span class=\"entry-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span><span class=\"entry-author\"><a href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span>"
+msgstr ""
+
+#functions.php:357
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#functions.php:387
+#functions.php:388
+msgid ", "
+msgstr ""
+
+#functions.php:390
+msgid "Posted under: "
+msgstr ""
+
+#functions.php:392
+msgid "Tagged as: "
+msgstr ""
+
+#functions.php:414
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#functions.php:417
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#functions.php:471
+msgid "Facebook"
+msgstr ""
+
+#functions.php:472
+msgid "Twitter"
+msgstr ""
+
+#functions.php:473
+msgid "Delicious"
+msgstr ""
+
+#functions.php:474
+msgid "Digg"
+msgstr ""
+
+#functions.php:475
+msgid "Tumblr"
+msgstr ""
+
+#functions.php:480
+msgid "Share this: "
+msgstr ""
+
+#functions.php:529
+msgid "First"
+msgstr ""
+
+#functions.php:564
+msgid "Last"
+msgstr ""
+
+#functions.php:591
+msgid "Comments off"
+msgstr ""
+
+#functions.php:596
+msgid " comment"
+msgstr ""
+
+#functions.php:599
+#functions.php:602
+msgid " comments"
+msgstr ""
+
+#functions.php:691
+msgid "Pingback:"
+msgstr ""
+
+#functions.php:706
+#, php-format
+msgid "<strong>%1$s</strong> on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#functions.php:706
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#functions.php:708
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#image.php:54
+msgid "Previous"
+msgstr ""
+
+#image.php:55
+msgid "Next"
+msgstr ""
+
+#searchform.php:8
+msgid "Search"
+msgstr ""
+
+#sidebar.php:9
+msgid "Archives"
+msgstr ""
+
+#sidebar.php:15
+msgid "Recent Posts"
+msgstr ""
+
+#admin/theme-options.php:40
+msgid "Absolute Settings"
+msgstr ""
+
+#admin/theme-options.php:49
+msgid "Fonts & Colors"
+msgstr ""
+
+#admin/theme-options.php:50
+msgid "Favicon"
+msgstr ""
+
+#admin/theme-options.php:51
+msgid "Layout"
+msgstr ""
+
+#admin/theme-options.php:52
+msgid "Slideshow"
+msgstr ""
+
+#admin/theme-options.php:53
+msgid "Portfolio"
+msgstr ""
+
+#admin/theme-options.php:54
+msgid "Blog"
+msgstr ""
+
+#admin/theme-options.php:55
+msgid "Social"
+msgstr ""
+
+#admin/theme-options.php:62
+msgid "Helvetica, Arial"
+msgstr ""
+
+#admin/theme-options.php:63
+msgid "Georgia"
+msgstr ""
+
+#admin/theme-options.php:64
+msgid "Verdana"
+msgstr ""
+
+#admin/theme-options.php:71
+msgid "One right sidebar"
+msgstr ""
+
+#admin/theme-options.php:72
+msgid "One left sidebar"
+msgstr ""
+
+#admin/theme-options.php:79
+msgid "Standard"
+msgstr ""
+
+#admin/theme-options.php:80
+msgid "Magazine"
+msgstr ""
+
+#admin/theme-options.php:87
+msgid "Two"
+msgstr ""
+
+#admin/theme-options.php:88
+msgid "Three"
+msgstr ""
+
+#admin/theme-options.php:89
+msgid "Four"
+msgstr ""
+
+#admin/theme-options.php:123
+msgid "Default settings restored"
+msgstr ""
+
+#admin/theme-options.php:131
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#admin/theme-options.php:135
+msgid "Feel free to donate via "
+msgstr ""
+
+#admin/theme-options.php:162
+msgid "Content Font"
+msgstr ""
+
+#admin/theme-options.php:170
+msgid "Content Font Size"
+msgstr ""
+
+#admin/theme-options.php:176
+msgid "Font color"
+msgstr ""
+
+#admin/theme-options.php:180
+msgid "Link color"
+msgstr ""
+
+#admin/theme-options.php:184
+msgid "Button color"
+msgstr ""
+
+#admin/theme-options.php:190
+msgid "Custom Favicon"
+msgstr ""
+
+#admin/theme-options.php:193
+msgid "Upload Favicon Image"
+msgstr ""
+
+#admin/theme-options.php:197
+msgid "Sidebar Layout"
+msgstr ""
+
+#admin/theme-options.php:212
+msgid "Enable slideshow"
+msgstr ""
+
+#admin/theme-options.php:215
+msgid "Display post slideshow on front page"
+msgstr ""
+
+#admin/theme-options.php:217
+msgid "Number of slides"
+msgstr ""
+
+#admin/theme-options.php:221
+msgid "Slideshow interval"
+msgstr ""
+
+#admin/theme-options.php:224
+msgid "Seconds"
+msgstr ""
+
+#admin/theme-options.php:228
+msgid "Number of portfolio columns"
+msgstr ""
+
+#admin/theme-options.php:238
+msgid "Blog Layout Style"
+msgstr ""
+
+#admin/theme-options.php:246
+msgid "Default Search Box"
+msgstr ""
+
+#admin/theme-options.php:249
+msgid "Display default search box in header"
+msgstr ""
+
+#admin/theme-options.php:251
+msgid "Categories and Tags"
+msgstr ""
+
+#admin/theme-options.php:254
+msgid "Show tags and categories for single entries"
+msgstr ""
+
+#admin/theme-options.php:256
+msgid "Page Meta"
+msgstr ""
+
+#admin/theme-options.php:259
+msgid "Show meta information for pages"
+msgstr ""
+
+#admin/theme-options.php:261
+msgid "Post bookmarking"
+msgstr ""
+
+#admin/theme-options.php:264
+msgid "Show post bookmarking buttons for single templates"
+msgstr ""
+
+#admin/theme-options.php:271
+msgid "Enter your facebook user id"
+msgstr ""
+
+#admin/theme-options.php:276
+msgid "Enter your twitter user id"
+msgstr ""
+
+#admin/theme-options.php:278
+msgid "RSS"
+msgstr ""
+
+#admin/theme-options.php:281
+msgid "Show RSS icon"
+msgstr ""
+
+#admin/theme-options.php:293
+msgid "Reset Settings"
+msgstr ""
+
+#admin/theme-options.php:297
+msgid "Theme designed and developed by "
+msgstr ""
+
+#admin/theme-options.php:297
+msgid "Nischal Maniar"
+msgstr ""
+
+#admin/theme-options.php:334
+msgid "Favicon size cannot exceed 16 x 16 pixels"
+msgstr ""
+
+#admin/theme-options.php:336
+msgid "Invalid favicon image URL"
+msgstr ""
+
+#admin/theme-options.php:343
+msgid "Number of slides should be a number and should be in the range from 1 to 20"
+msgstr ""
+
+#admin/theme-options.php:349
+msgid "Slideshow interval should be a number and should be in range from 1 to 10 secs"
+msgstr ""
+
+#admin/theme-options.php:355
+msgid "Invalid font size. Font size should be in decimal format"
+msgstr ""

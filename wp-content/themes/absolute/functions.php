@@ -10,7 +10,7 @@
  * And then run the "Regenerate Thumbnail" plugin to reset the thumbnail sizes
  */
 // Full content width
-define('ABSOLUTE_WRAPPER_WIDTH',1020);
+define('ABSOLUTE_WRAPPER_WIDTH',900);
 // Sidebar width
 define('ABSOLUTE_SIDEBAR_WIDTH',250);
 // Post content width
@@ -18,7 +18,7 @@ define('ABSOLUTE_CONTENT_WIDTH',(ABSOLUTE_WRAPPER_WIDTH - ABSOLUTE_SIDEBAR_WIDTH
 // Post Slideshow height
 define('ABSOLUTE_SLIDER_HEIGHT',380);
 // Header height
-define('ABSOLUTE_HEADER_HEIGHT',110);
+define('ABSOLUTE_HEADER_HEIGHT',140);
 
 /**
  * Setting the content width based on theme's layout

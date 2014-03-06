@@ -11,7 +11,7 @@ global $page, $paged, $absolute_options;
 </div><!-- End of wrap_all -->
 
 <div id="footer">
-    <?php wp_nav_menu(array('theme_location' => 'bottom', 'container_class' => 'bottom-menu clearfix', 'depth' => 2)); ?>
+    <?php //wp_nav_menu(array('theme_location' => 'bottom', 'container_class' => 'bottom-menu clearfix', 'depth' => 2)); ?>
     <?php if(!is_404()) get_sidebar('footer'); ?>
     <div id="footer-sosial">
         <?php if(trim($absolute_options['facebook_user']) != ''): ?>
