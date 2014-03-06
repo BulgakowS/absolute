@@ -190,7 +190,7 @@ textarea { overflow: auto; }
 }
 .main-menu a:hover { 
     color: #fff; 
-    text-shadow: #ccc 0px 0px;
+    text-shadow: #ccc 0px 0px 10px;
 }
 .main-menu .current-menu-item a { 
     color: #393185; 

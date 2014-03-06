@@ -40,13 +40,13 @@
     <?php if ( comments_open() ): ?>
 	<h2> Facebook </h2> 
 	<!-- FB Comments -->
-	<div class="fb-comments" data-href="<?php _e(get_home_url()); ?>" data-numposts="10" data-colorscheme="light" data-width="700"></div>
+	<div class="fb-comments" data-href="<?php _e(get_home_url()); ?>" data-numposts="10" data-colorscheme="light" data-width="650"></div>
 	<!-- /FB Comments -->
 
 	<h2> Вконтакте </h2> 
 	<!-- VK Comments -->	
 	<div id="vk_comments"></div>
-	<script type="text/javascript"> VK.Widgets.Comments("vk_comments", {limit: 10, width: "700", attach: "*"}); </script>
+	<script type="text/javascript"> VK.Widgets.Comments("vk_comments", {limit: 10, width: "650", attach: "*"}); </script>
 	<!-- /VK Comments -->
     <?php endif; ?>
     <?php comment_form(); ?>
