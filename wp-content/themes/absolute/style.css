@@ -63,11 +63,11 @@ textarea { overflow: auto; }
     margin: 0 auto; 
     text-align: left; 
     overflow: hidden; 
-    width: 900px;
+    width: 1000px;
     /*margin-top: -10px;*/ 
 }
 /*box-shadow: 0 -8px 20px 2px rgba(255, 188, 57, 0.8);*/
-#content { background-color: #fff; overflow: hidden; position: relative; margin-bottom: 20px; }
+#content { background-color: #fff; overflow: hidden; position: relative; margin-bottom: 30px; }
 .container, .full-container { 
     float: left; 
     padding: 25px; 
@@ -91,11 +91,11 @@ textarea { overflow: auto; }
 }
 #header .tablayout td { width: 50%; padding: 0 20px; }
 #header-block{
-    width: 900px;
-    height: 140px;
+    width: 1000px;
+    height: 160px;
     margin: 0 auto;
-    background: url('imgs/shop.png') no-repeat 85px top;
-    background-size: 363px 140px;
+    background: url('imgs/shop.png') no-repeat 85px bottom;
+    background-size: 526px 180px;
 }
 
 #header_left .widget{
@@ -154,7 +154,7 @@ textarea { overflow: auto; }
     width: 100%; 
 }
 .main-menu ul, .main-menu ul ul { list-style: none; }
-.main-menu ul li { display: inline-block; }
+.main-menu ul li { display: inline-block; width: 110px; }
 .main-menu ul li a { margin: 0 auto; display: block; font-size: 13px; font-weight: 700; text-align: center; text-transform: uppercase; }
 .main-menu ul ul { visibility: hidden; width: 140px; position: absolute; z-index: 999; }
 .main-menu ul ul li { width: 140px; position: relative; word-wrap: break-word; }
@@ -172,7 +172,7 @@ textarea { overflow: auto; }
 }
 .main-menu ul{
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
     text-align: center;
 }
 .main-menu a { 
@@ -328,7 +328,7 @@ img.size-full, img.size-large { max-width: 100%; width: auto; height: auto; }
 .wp-caption .wp-caption-text, .entry-attachment .entry-caption p, .gallery .gallery-caption { font-size: 12px; margin-bottom: 10px; padding: 0 !important; word-wrap: break-word; line-height: 135%; margin-top: 5px; text-align: center; }
 
 
-#wrap_all{ min-height: 100%; background: url('imgs/wrapper_bg.jpg') no-repeat center 170px;}
+#wrap_all{ min-height: 100%; background: url('imgs/wrapper_bg1.jpg') no-repeat center 190px;}
 #footer_space{ height: 140px; /*position: relative;*/ clear: both;}
 /* Footer */
 #footer { 
@@ -361,7 +361,7 @@ img.size-full, img.size-large { max-width: 100%; width: auto; height: auto; }
     font-size: 11px; 
     text-align: left; 
     color: #8b8b8b;
-    width: 900px;
+    width: 1000px;
     margin: -15px auto 0;
     padding: 0; 
     line-height: 13px;
@@ -371,14 +371,14 @@ img.size-full, img.size-large { max-width: 100%; width: auto; height: auto; }
     border: none;
     padding: 0;
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
     text-align: right;
 }
 
 /*bottom menu*/
 #menu-bottom{
     font-family: serif;
-/*    width: 900px;
+/*    width: 1000px;
     margin: 0 auto;*/
     padding: 0;
     text-align: center;
@@ -516,7 +516,7 @@ ul#languages li{
 }
 
 #ticketsOnMain{
-    width: 900px;
+    width: 100%;
     border: none;
     margin: 0 auto;
     padding: 0;
@@ -525,7 +525,7 @@ ul#languages li{
 #ticketsOnMain a .ticket{
     float: left;
     margin: 5px;
-    width: 270px;
+    width: 300px;
     height: 140px;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -534,7 +534,7 @@ ul#languages li{
     -moz-border-radius: 5px;
     position: relative;
     cursor: pointer;
-}
+} 
 
 #ticketsOnMain a .ticket#addresses{
     background: URL(imgs/ticket_contacts.png) no-repeat left top;
@@ -610,4 +610,4 @@ ul#languages li{
 
 
 
-.jcarousel-container.jcarousel-container-horizontal{margin: o auto;}
+.jcarousel-container.jcarousel-container-horizontal{margin: 0 auto !important;}

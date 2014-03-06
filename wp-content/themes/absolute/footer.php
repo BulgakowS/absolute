@@ -31,10 +31,10 @@ global $page, $paged, $absolute_options;
 </div>
 <?php wp_footer(); ?>
 <script>
-    jQuery(document).ready(function(){
-        var lis = jQuery('#menu-main > li');
-        lis.css({'width': 100/lis.length + '%'});
-    });
+//    jQuery(document).ready(function(){
+//        var lis = jQuery('#menu-main > li');
+//        lis.css({'width': 100/lis.length + '%'});
+//    });
 </script>
 </body>
 </html>
